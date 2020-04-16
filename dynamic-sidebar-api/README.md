@@ -1,1 +1,1 @@
-#api
+# dynamic-sidebar-api
