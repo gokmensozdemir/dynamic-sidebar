@@ -1,4 +1,4 @@
-# dynamic-sidebar-api
+# Dynamic-Sidebar-Api
 
 # Connection String
 Replace default connection string at <b>application.json</b> with the information of your sql server.<br />
