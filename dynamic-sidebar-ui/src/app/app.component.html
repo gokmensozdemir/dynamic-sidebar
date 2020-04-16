@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div class="sidenav">
+    <a href="javascript:void(0);" (click)="load(menu)" *ngFor="let menu of menus">{{menu.title}}</a>
+  </div>
+
+  <div class="content">
+    <ng-container *ngComponentOutlet="myComponent; injector:myInjector" ></ng-container>
+  </div>
+
+</body>
+
+</html>
