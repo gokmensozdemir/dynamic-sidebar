@@ -6,4 +6,5 @@ Replace default connection string at application.json with the information of yo
 "DefaultConnection": "Data Source=***;Initial Catalog=DynamicMenuDB;User ID=***;Password=***"<br />
 
 # Seed Data
-Enter once http://localhost:8000/api/seed to load seed data.
+Call the url below once to load the seed data.<br />
+http://localhost:8000/api/seed
